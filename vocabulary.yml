@@ -1,4 +1,83 @@
-- gloss: root
-  lojban: genja
-  vintar: rutso, vurse, ratsi, korna, nerku, zardu, genku, jadru
-  
+- gloss: do
+  ar: 
+    src: فعل
+    lat: faʿala
+    ipa: fa.ʕa.la
+    root: 
+      ar: ف ع ل
+      lat: fʿl
+  lojban: gasnu
+  vintar:
+    ar: فعل
+    lat: faʿl
+    phon: fahl
+  short:
+  - fa
+  - fʿ
+  definition: _agent does _content
+- gloss: above
+  ar:
+    src: أعلى
+    lat: ʾaʿlā
+    ipa: ʔaʕ.laː
+    root:
+      src: ع ل و‎
+      lat: ʿlw
+  lojban: gapru
+  vintar:
+    ar: علو
+    lat: ʿalw
+    phon: halw
+  short: 
+  - ʿa
+  - ʿl
+  definition: _agent is above _object
+- gloss: space
+  ar:
+    src: فراغ
+    lat: farāḡ
+    ipa: fa.raːɣ
+    root:
+      src: ف ر غ
+      lat: frḡ
+    lojban: canlu
+    vintar: ‎
+      lat: frāḡ
+      phon: fraagh
+    short: 
+    - frā
+    - fār
+- gloss: sky
+  compound:
+  - space
+  - above
+  lojban: tsani
+  vintar:
+    ar: فراع
+    lat: frāʿ
+    phon: fraah
+  short: 
+  - fāʿ
+  - fʿā
+- gloss: light
+  arabic:
+    src: نَوَّرَ 
+    lat: nawwara
+    ipa: naw.wa.ra
+  lojban: gusni
+  vintar:
+    lat: nawra 
+  short: na
+- gloss: sun
+  lojban: solri
+  compound:
+  - light
+  - sky
+  vintar:
+    lat: nāfʿ
+    phone: naafh
+  short: 
+  - nāf
+  - nfā
+- gloss: daytime
+  lojban: donri
