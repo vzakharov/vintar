@@ -1,0 +1,10 @@
+- gloss: root
+  lojban: genja
+  vintar: rutso, vurse, ratsi, korna, nerku, zardu, genku, jadru
+- gloss: word
+  lojban: valsi
+  vintar: vordo, vorte, parli, slova, kotbu, sadbu, dacnu, kalmu
+- gloss: cell
+  newGloss: atom
+  lojban: selci
+  vintar: natmo, natme, natmi, natma, gencu, parmu, ganzu, darxu
