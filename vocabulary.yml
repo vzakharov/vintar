@@ -1,16 +1,12 @@
 - gloss: do
-  ar: 
-    src: فعل
+  ar: فعل
     lat: faʿala
     ipa: fa.ʕa.la
     root: 
       ar: ف ع ل
       lat: fʿl
   lojban: gasnu
-  vintar:
-    ar: فعل
-    lat: faʿl
-    phon: fahl
+  vintar: faʿl
   short:
   - fa
   - fʿ
@@ -24,10 +20,7 @@
       src: ع ل و‎
       lat: ʿlw
   lojban: gapru
-  vintar:
-    ar: علو
-    lat: ʿalw
-    phon: halw
+  vintar: ʿalw
   short: 
   - ʿa
   - ʿl
@@ -41,9 +34,7 @@
       src: ف ر غ
       lat: frḡ
     lojban: canlu
-    vintar: ‎
-      lat: frāḡ
-      phon: fraagh
+    vintar: frāḡ
     short: 
     - frā
     - fār
@@ -52,10 +43,7 @@
   - space
   - above
   lojban: tsani
-  vintar:
-    ar: فراع
-    lat: frāʿ
-    phon: fraah
+  vintar: frāʿ
   short: 
   - fāʿ
   - fʿā
@@ -65,19 +53,33 @@
     lat: nawwara
     ipa: naw.wa.ra
   lojban: gusni
-  vintar:
-    lat: nawra 
+  vintar: nawra 
   short: na
 - gloss: sun
   lojban: solri
   compound:
   - light
   - sky
-  vintar:
-    lat: nāfʿ
-    phone: naafh
+  vintar: nāfʿ
   short: 
   - nāf
   - nfā
 - gloss: daytime
   lojban: donri
+  compound:
+  - sky
+  - light
+  vintar: fāʿn
+- gloss: wait
+  definition: (ditransitive) x1 waits for x2 for x3; (transitive) x1 takes time x2; x1 is time
+  ar:
+    gloss: time
+    src: زَمَن
+    lat: zaman
+  lojban: tcika
+  vintar: zamn
+  short: za
+- gloss: repeat
+  ar: ك ر ر
+  arLat: krr
+  lojban: rapli

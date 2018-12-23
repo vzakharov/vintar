@@ -1,0 +1,20 @@
+above: &above above
+space: &space space
+sky: &sky
+- *space
+- *above
+light: &light light
+sun:
+- *light
+- *sky
+daytime: &daytime
+- *sky
+- *light
+wait: &wait wait
+repeat: &repeat repeat
+period: &period
+- *wait
+- *repeat
+day: &day
+- *period
+- *daytime
