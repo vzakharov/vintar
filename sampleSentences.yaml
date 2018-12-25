@@ -1,5 +1,67 @@
 - 
   en: Philosophy (from Greek φιλοσοφία, philosophia, literally "love of wisdom") is the study of general and fundamental problems concerning matters such as existence, knowledge, values, reason, mind, and language.
-  code: [point] [flow]/study+wise [explain] [receive] originate [point] greek [list]-[two] [quote] φιλοσοφία [collapse] [quote] philosophia [collapse] [explain] mean [reject]+mean+different [point] [flow] love wise [do] [flow]/learn [point] problem [list]-[two] general [similar]/house+carry [refine] touch [point] similar [list]-[word] [flow]/exist [flow]/know [contain]/evaluate [flow]/can+think [use]/think [use]/communicate.
-  vinten: Ðe STAWAYia wić se RIJNe ðe GARIKi li-tu kwo φιλοσοφία sow kwo philosophia sow wić MINNe NONMINDIFi ðe flo LAVVa WAYZa du LÖRNia ðe PROBo li-tu JENRo HAWKERi ðet TATĆe ðe SIMLi li-wo ZISTia NOWVia VELYia KENθINua KOMNua.
-  vintenglish: The philosophize-ing which (passive) originate the greek (list)-(two) (quote) φιλοσοφία (end) (quote) philosophia (end) which mean literal the process-of love wise — learn-ing the problem (list)-(two) general foundation-ish that touch the similar (list)-(word) exist-ing know-ing evaluate-ing reason-ing tool-for-think-ing tool-for-communicate-ing.
+  code: [point] [flow]/philosophize:study+wise [explain] [receive] originate [point] greek [list]-[two] [quote] φιλοσοφία [collapse] [quote] philosophia [collapse] [explain] mean literal:reject+mean+different [point] [flow] love [the] wise [do] [flow]/learn [point] [receive] solve [list]-[two] general [similar]/house+carry [refine] touch [point] similar [list]-[word] [flow]/exist [flow]/know [contain]/evaluate [flow]/reason:can+think [use]/think [use]/communicate.
+  vinten: Ðe STAWAYia wić ed RIJNe ðe GARIKi lis-tu kwo φιλοσοφία sow kwo philosophia sow wić MINNe NONMINDIFi ðe duiŋ LAVVa ðe WAYZa du LÖRNia ðe ed SOLVe lis-tu JENRi HAWKERi ðet TATĆe ðe SIMLi lis-wo ZISTia NOWVia VELYia KENθINua KOMNua.
+  vintenPhonetic: The stu-why-ia which ed rijne the gariki list-two quo philosophia sow quo philosophia sow which meanne nonmeandifi
+  vintenglish: The philosophizing which ed originate the greek lis-two quo φιλοσοφία so quo philosophia so which mean literal the doing love the wise do learning the ed solve lis-two general foundationish that touch the similar lis-two existing knowing evaluating reasoning thinking-thing communicating-thing.
+  code2: The philosophize-ing which (passive) originate the greek (list)-(two) (quote) φιλοσοφία (end) (quote) philosophia (end) which mean literal the process-of love the wise — learn-ing the (passive) solve (list)-(two) general foundation-ish that touch the similar (list)-(word) exist-ing know-ing evaluate-ing reason-ing think-ing-thing communicate-ing-thing.
+-
+  en: So like John before him, this Jesus must die.
+  code: |
+    [RESULT]
+      begin 
+        [SIMILAR] 
+          (object)
+            the-named "John" PRECEDE 
+          agent
+            the-here-named "Jesus"
+          content
+            [MUST]
+              (content)
+                DIE
+      (end-sentence)
+  vintar: Nat ba maṯ lʾa Jaun sabqa fa laʾa Jaisus ḥa laz mawta.
+  vinten: Res be laik ðe-nei Jon prese duer ðe-hi-nei Jesus kon mas dayye.
+-
+  en: So like John before him, this Jesus must die.
+  code: | 
+    (agent)
+      the-named "Jesus"
+        [SIMILAR]
+          (object)
+            the-named "John" PRECEDE
+          content
+            [MUST]
+              (content)
+               DIE
+  vintar: Laʾa Jaisus maṯ lʾa Jaun sabqu ḥa laz mawtu.
+-
+  updatedOn: 181224
+  ru: Мой дядя самых честных правил, когда не в шутку занемог, он уважать себя заставил и лучше выдумать не мог.
+  code: |
+    (begin-sentence)                                      # (We start the sentence)
+      (begin-before)                                      # (with saying whatever we want to say before mentioning the predicate:)
+        (agent)                                           # (Who is the agent of the sentence?)
+          the UNCLE-me                                    # My uncle,
+            which                                         # who
+              COMPLY                                      # complied (could also be complies — the tense is redundant throughout)
+                (content)                                 # (with what?)
+                  the-many content/COMPLY most STRICT     # with the rules (=many things that are complied with) that are the strictest
+            end                                           # (that’s it for the uncle),
+        time                                              # at the time of
+          become great ILL                                # becoming very ill
+        end-before                                        # (now we’ll introduce the predicate),
+      list-two                                            # did two things:
+        induce/RESPECT                                    # induced others to respect
+          (content)                                       # (whom?)
+            the-agent                                     # himself (= the agent of this sentence, the uncle),
+          next                                            # and
+        not/CAN                                           # he could not
+          DEVISE                                          # devise
+            (content)                                     # (what?)
+              a                                           # anything
+                more/GOOD                                 # which is better
+                  (content)                               # (than what?)
+                    the-predicate-before                  # than the previous predicate (i.e. inducing the respect),
+    (end-sentence)                                        # (and thus we end the sentence.)
+  vintar: Wa l ʿamma-ʾa ḵa ṭawʿa l-ka ṭwāʿu ʿaẓ 
