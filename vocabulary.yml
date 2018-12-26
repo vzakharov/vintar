@@ -1,85 +1,117 @@
-- gloss: do
-  ar: فعل
-    lat: faʿala
-    ipa: fa.ʕa.la
-    root: 
-      ar: ف ع ل
-      lat: fʿl
-  lojban: gasnu
-  vintar: faʿl
-  short:
-  - fa
-  - fʿ
-  definition: _agent does _content
-- gloss: above
-  ar:
-    src: أعلى
-    lat: ʾaʿlā
-    ipa: ʔaʕ.laː
-    root:
-      src: ع ل و‎
-      lat: ʿlw
-  lojban: gapru
-  vintar: ʿalw
-  short: 
-  - ʿa
-  - ʿl
-  definition: _agent is above _object
-- gloss: space
-  ar:
-    src: فراغ
-    lat: farāḡ
-    ipa: fa.raːɣ
-    root:
-      src: ف ر غ
-      lat: frḡ
-    lojban: canlu
-    vintar: frāḡ
-    short: 
-    - frā
-    - fār
-- gloss: sky
-  compound:
-  - space
-  - above
-  lojban: tsani
-  vintar: frāʿ
-  short: 
-  - fāʿ
-  - fʿā
-- gloss: light
-  arabic:
-    src: نَوَّرَ 
-    lat: nawwara
-    ipa: naw.wa.ra
-  lojban: gusni
-  vintar: nawra 
-  short: na
-- gloss: sun
-  lojban: solri
-  compound:
-  - light
-  - sky
-  vintar: nāfʿ
-  short: 
-  - nāf
-  - nfā
-- gloss: daytime
-  lojban: donri
-  compound:
-  - sky
-  - light
-  vintar: fāʿn
-- gloss: wait
-  definition: (ditransitive) x1 waits for x2 for x3; (transitive) x1 takes time x2; x1 is time
-  ar:
-    gloss: time
-    src: زَمَن
-    lat: zaman
-  lojban: tcika
-  vintar: zamn
-  short: za
-- gloss: repeat
-  ar: ك ر ر
-  arLat: krr
-  lojban: rapli
+-
+    root: ʾnn
+    gloss: I
+-
+    root: ʾsm
+    gloss: name
+-
+    root: ʿdl
+    gloss: fair
+-
+    root: ʿmm
+    gloss: uncle
+-
+    root: ʿẓm
+    gloss: most
+-
+    root: bdʾ
+    gloss: begin
+-
+    root: dfq
+    gloss: flow
+-
+    root: fʿl
+    gloss: do
+-
+    root: ḡrb
+    gloss: foreign
+-
+    root: ḥwy
+    gloss: contain
+-
+    root: kml
+    gloss: complete
+-
+    root: kṯr
+    gloss: many
+-
+    root: juml
+    gloss: sentence
+-
+    root: ḵyr
+    gloss: choose
+-
+    root: lzm
+    gloss: must
+-
+    root: mṯl
+    gloss: similar
+-
+    root: mwt
+    gloss: die
+-
+    root: myl
+    gloss: lean
+-
+    root: nky
+    gloss: pure
+-
+    root: ntj
+    gloss: result
+-
+    root: qrb
+    gloss: near
+-
+    root: sbq
+    gloss: precede
+-
+    root: ṣbḥ
+    gloss: morning
+-
+    root: ṣdq
+    gloss: 'true'
+-
+    root: ṣdʿ
+    gloss: crack
+-
+    root: ṣḡr
+    gloss: small
+-
+    root: ṣḥḥ
+    gloss: healthy
+-
+    root: ṣlb
+    gloss: stiff
+-
+    root: šḥb
+    gloss: pale
+-
+    root: ṭwʿ
+    gloss: comply
+-
+    root: wld
+    gloss: beget
+-
+    root: ʾbr
+    gloss: pinch
+-
+    root: ʾḵḏ
+    gloss: take
+-
+    root: ʾss
+    gloss: found
+-
+    root: ʾkl
+    gloss: eat
+-
+    root: srʿ
+    gloss: fast
+-
+    root: ʾmr
+    gloss: instruct
+-
+    root: ʾmn
+    gloss: rely
+-
+    root: ʾwy
+    gloss: shelter

@@ -1,13 +1,13 @@
 - 
   en: Philosophy (from Greek φιλοσοφία, philosophia, literally "love of wisdom") is the study of general and fundamental problems concerning matters such as existence, knowledge, values, reason, mind, and language.
-  code: [point] [flow]/philosophize:study+wise [explain] [receive] originate [point] greek [list]-[two] [quote] φιλοσοφία [collapse] [quote] philosophia [collapse] [explain] mean literal:reject+mean+different [point] [flow] love [the] wise [do] [flow]/learn [point] [receive] solve [list]-[two] general [similar]/house+carry [refine] touch [point] similar [list]-[word] [flow]/exist [flow]/know [contain]/evaluate [flow]/reason:can+think [use]/think [use]/communicate.
+  vint: [point] [flow]/philosophize:study+wise [explain] [receive] originate [point] greek [list]-[two] [quote] φιλοσοφία [collapse] [quote] philosophia [collapse] [explain] mean literal:reject+mean+different [point] [flow] love [the] wise [do] [flow]/learn [point] [receive] solve [list]-[two] general [similar]/house+carry [refine] touch [point] similar [list]-[word] [flow]/exist [flow]/know [contain]/evaluate [flow]/reason:can+think [use]/think [use]/communicate.
   vinten: Ðe STAWAYia wić ed RIJNe ðe GARIKi lis-tu kwo φιλοσοφία sow kwo philosophia sow wić MINNe NONMINDIFi ðe duiŋ LAVVa ðe WAYZa du LÖRNia ðe ed SOLVe lis-tu JENRi HAWKERi ðet TATĆe ðe SIMLi lis-wo ZISTia NOWVia VELYia KENθINua KOMNua.
   vintenPhonetic: The stu-why-ia which ed rijne the gariki list-two quo philosophia sow quo philosophia sow which meanne nonmeandifi
   vintenglish: The philosophizing which ed originate the greek lis-two quo φιλοσοφία so quo philosophia so which mean literal the doing love the wise do learning the ed solve lis-two general foundationish that touch the similar lis-two existing knowing evaluating reasoning thinking-thing communicating-thing.
   code2: The philosophize-ing which (passive) originate the greek (list)-(two) (quote) φιλοσοφία (end) (quote) philosophia (end) which mean literal the process-of love the wise — learn-ing the (passive) solve (list)-(two) general foundation-ish that touch the similar (list)-(word) exist-ing know-ing evaluate-ing reason-ing think-ing-thing communicate-ing-thing.
 -
   en: So like John before him, this Jesus must die.
-  code: |
+  vint: |
     [RESULT]
       begin 
         [SIMILAR] 
@@ -24,7 +24,7 @@
   vinten: Res be laik ðe-nei Jon prese duer ðe-hi-nei Jesus kon mas dayye.
 -
   en: So like John before him, this Jesus must die.
-  code: | 
+  vint: | 
     (agent)
       the-named "Jesus"
         [SIMILAR]
@@ -38,7 +38,7 @@
 -
   updatedOn: 181224
   ru: Мой дядя самых честных правил, когда не в шутку занемог, он уважать себя заставил и лучше выдумать не мог.
-  code: |
+  vint: |
     (begin-sentence)                                      # (We start the sentence)
       (begin-before)                                      # (with saying whatever we want to say before mentioning the predicate:)
         (agent)                                           # (Who is the agent of the sentence?)
@@ -64,4 +64,15 @@
                   (content)                               # (than what?)
                     the-predicate-before                  # than the previous predicate (i.e. inducing the respect),
     (end-sentence)                                        # (and thus we end the sentence.)
-  vintar: Wa l ʿamma-ʾa ḵa ṭawʿa l-ka ṭwāʿu ʿaẓ 
+  vintar: Wa l ʿamma-ʾa ḵa ṭawʿa l-ka ṭwāʿu ʿaẓ
+- 
+  updated: 182612-1312
+  en: Humans (taxonomically, Homo sapiens) are the only extant members of the subtribe Hominina. 
+  vint: |
+    (begin-sentence)
+      (begin-before)
+        (subject)
+          mass
+            HUMAN
+              which
+                revert/TAXONOMY
