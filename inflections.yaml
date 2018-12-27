@@ -1,0 +1,77 @@
+-
+  gloss: name
+  keywords: name, nominal 
+  subjective:
+    action: [subject] has the name of [content]
+    content: [content] is the name of [subject]
+    quality: [subject] is nominal/exists in name only
+  agentive:
+    action: [agent] gives [object] the name of [content]
+-
+  gloss: begin
+  keywords: begin, start, beginning, initial
+  subjective:
+    action: [subject] begins/starts with [content]
+    content: [content] is the beginning/start of [subject]
+    quality: [subject] is initial
+  agentive:
+    action: [agent] begins/starts [object] with [content]
+    process: [process] is the process of beginning/starting
+-
+  gloss: flow
+  keywords: flow, fluid, liquid, liquefy, process, melt, melted, molten, processual
+  subjective:
+    action: [subject] flows
+    subject: 
+      noun: [subject] is a fluid/liquid
+      adjective: [subject] is fluid/liquid
+    process:
+      noun: [subject] is the flowing/process of [object]
+      adjective: [subject] is processual
+  agentive:
+    action: [agent] makes flow/liquefies/melts [object]
+    quality: [object] is melted/molten
+    process: [process] is the liquefaction of [subject]
+-
+  gloss: do
+  keywords: do, act, use, subject, action, function, tool
+  subjective:
+    action: [subject] does/acts for [content]
+    content: [content] is the action of [subject]
+    process: [process] is action
+    quality: [subject] is active/useful for [content]
+  agentive:
+    action: [agent] uses [object] for [content]
+    content: [content] is the function/purpose of [subject]
+    process: [process] is the use of [subject]
+-
+  gloss: contain
+  keywords: content, store, container, storage
+  subjective:
+    action: [subject] contains [content]
+    content: [content] is the content of/contained in [object]
+    object: [subject] is a container for [content]
+  agentive:
+    action: [agent] uses [object] to store [content]
+    object: [subject] is a storage for [content]
+    process: [subject] is the storing of [content] 
+-
+  gloss: complete
+  keywords: finish, finalize, end, final
+  subjective:
+    action: [subject] completes/ends with [content]
+    content: [content] is the completion/end of [subject]
+    quality: [subject] is complete/final
+  agentive:
+    action: [agent] completes/ends/finalizes [object] with [content]
+    process: [process] is the finalization of [subject]
+    quality: [subject] is finalized/final
+-
+  gloss: choose
+  keywords: choice, select, selection, optional, discretionary, voluntary
+  subjective:
+    action: [subject] chooses [content]
+    content: [content] is the choice by [subject]
+    process:
+      noun: [process] is the choosing of [content]
+      adjective: [object] is optional/discretionary/voluntary
