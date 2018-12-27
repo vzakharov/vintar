@@ -1,1 +1,10 @@
-taxonomy: name+kind
+- 
+  gloss: taxonomy
+  definition: [subject] is taxonomically classified as [object]
+  compound: type sharp
+  vintar: ṣanḥdu
+  plain: šnhd
+-
+  gloss: alone
+  compount: unlike all
+  vintar: faṣjmi

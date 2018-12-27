@@ -66,13 +66,43 @@
     (end-sentence)                                        # (and thus we end the sentence.)
   vintar: Wa l ʿamma-ʾa ḵa ṭawʿa l-ka ṭwāʿu ʿaẓ
 - 
-  updated: 182612-1312
+  updated: 182612-1651
   en: Humans (taxonomically, Homo sapiens) are the only extant members of the subtribe Hominina. 
   vint: |
     (begin-sentence)
-      (begin-before)
-        (subject)
-          mass
-            HUMAN
-              which
-                revert/TAXONOMY
+      (subject)
+        mass
+          HUMAN
+            which
+              TAXONOMY
+                foreign-exact
+                  Homo Sapiens  # each word starts with a capital
+      relationship
+        BELONG EXIST-join-ONLY
+      content
+        foreign Subtribu foreign-exact Hominina
+    (end-sentence)
+  vintar: Kat ʾANSU ḵay ṢANḤADU ḡa-ḥa Homo Sapiens ka ʿAḌWA WAJDA-ma-FAṢJMI ḥa ḡa Subtribu ḡa-ḥa Hominina
+-
+  updated: 182612-1757
+  en: They are characterized by erect posture and bipedal locomotion; high manual dexterity and heavy tool use compared to other animals; open-ended and complex language use compared to other animal communications; and a general trend toward larger, more complex brains and societies.
+  vint: |
+    previous-subject
+      FEATURE/verb
+    content begin
+        a STAND/noun(-method) COLUMN/adjective next # -method is default, because there is no content for the verb "stand"
+        a MOVE/reciprocal/noun-method FOOT/adjective-join-TWO
+      end next begin
+        a DEXTEROUS/noun HAND/adjective next
+        a USE/noun-process TOOL
+      end BIG COMPARE-join-begin
+          LIVE/noun-subject-join-DIFFERENT 
+        end next-fix
+      a USE/noun-process COMMUNICATE/noun-tool begin
+          no-BOUNDARY/adjective next COMPLEX
+        end COMPARE-join-previous next
+      LEAN/noun-figurative-state begin
+        THINK/noun-tool next SOCIETY
+      end COMLEX COMPARE-join-previous
+  vintar: Sab-fa WUṢFA ḥa w’un WAQFU ʿUMDI t’un ...
+
